@@ -1,0 +1,92 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#email{
+    margin-right: 1rem;
+}
+
+.new{
+    background-color: green;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none; 
+    padding: .5rem; 
+    cursor: pointer;
+}
+
+.mailsession{
+    color: green; 
+}
+
+.registro{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.reg_inputs{
+    display: block;
+    div{
+        padding: .5rem;
+    }
+}
+
+section{
+    padding: 1rem; 
+    margin: 0 auto; 
+}
+
+.container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_new{
+    padding: 2rem; 
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#titulo, #cuerpo, #fecha, #new_submit{
+    margin: .75rem; 
+    font-weight: 700;
+}
+
+#titulo{
+    width: 90%;
+}
+
+#new_submit{
+    cursor: pointer;
+}
+
+#cuerpo{
+    width: 90%;
+    height: 15rem;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th{
+    justify-content: center;
+}
+
+.noticia{
+    border-bottom: 1px solid black;
+}
